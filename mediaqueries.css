@@ -1,10 +1,14 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
         margin-bottom: 6rem;
     }
     .about-containers {
         flex-wrap: wrap;
+    }
+    #contact,
+    projects {
+        height: fit-content;
     }
 }
 
@@ -16,7 +20,7 @@
         display: flex;
     }
     #experience,
-    .experience-details-containers {
+    .experience-details-container {
         margin-top: 2rem;
     }
     #profile, 
@@ -26,6 +30,7 @@
     .arrow {
         display: none;
     }
+
     section,
     .section-container {
         height: fit-content;
@@ -38,10 +43,13 @@
         height: 275px;
         margin: 0 auto 2rem;
     }
+    .about-containers {
+        margin-top: 0;
+    }
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
     #contact,
     footer {
         height: 40vh;
@@ -55,7 +63,7 @@
     }
     footer {
         height: fit-content;
-        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
     .about-containers,
     .contact-info-upper-container,
